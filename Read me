@@ -1,0 +1,79 @@
+# Ferretería Los Maestros
+
+## Descripción
+
+Proyecto web desarrollado para la asignatura **Desarrollo FullStack II (DSY1104)**.
+
+El proyecto consiste en el desarrollo de un sitio web para una ferretería, utilizando HTML5, CSS y JavaScript. La aplicación permite visualizar productos, navegar entre diferentes secciones, registrar usuarios, iniciar sesión y utilizar funcionalidades relacionadas con el catálogo y el carrito.
+
+## Tecnologías utilizadas
+
+- HTML5
+- CSS3
+- JavaScript
+- LocalStorage
+- Git
+- GitHub
+
+## Funcionalidades
+
+- Página principal de la ferretería.
+- Catálogo de productos.
+- Visualización de productos.
+- Registro de usuarios.
+- Inicio de sesión.
+- Validación de formularios mediante JavaScript.
+- Mensajes de error personalizados.
+- Carrito de productos.
+- Gestión de sesión mediante LocalStorage.
+- Sección de contacto.
+- Sección informativa de la empresa.
+- Panel administrativo para productos y usuarios.
+
+## Estructura del proyecto
+
+El proyecto está organizado principalmente de la siguiente manera:
+
+- `index.html` — Página principal.
+- `catalogo.html` — Catálogo de productos.
+- `registro.html` — Registro de usuarios.
+- `login.html` — Inicio de sesión.
+- `contacto.html` — Formulario de contacto.
+- `nosotros.html` — Información de la empresa.
+- `app.js` — Lógica y funcionalidades JavaScript.
+- `style.css` — Estilos y diseño de la aplicación.
+
+## Validaciones
+
+Los formularios utilizan JavaScript para validar la información ingresada por el usuario.
+
+Entre las validaciones implementadas se encuentran:
+
+- RUN.
+- Nombre y apellidos.
+- Correo electrónico.
+- Región y comuna.
+- Dirección.
+- Campos obligatorios.
+
+Cuando existe un error, se muestran mensajes personalizados para indicar al usuario qué debe corregir.
+
+## Diseño
+
+Los estilos se encuentran centralizados en el archivo `style.css`, permitiendo mantener una apariencia consistente entre las diferentes páginas y facilitar el mantenimiento del proyecto.
+
+También se incorporan reglas responsive para adaptar la interfaz a diferentes tamaños de pantalla.
+
+## Autores
+
+Proyecto desarrollado por:
+
+- Martín Sepúlveda
+- [Nombre integrante 2]
+- [Nombre integrante 3]
+
+## Asignatura
+
+**Desarrollo FullStack II — DSY1104**
+
+**Duoc UC**
