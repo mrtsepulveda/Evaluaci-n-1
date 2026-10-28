@@ -1,0 +1,52 @@
+/* Estilos propios (colores de la marca). Todo lo demás lo resuelve Bootstrap. */
+:root {
+  --azul-maestros: #003366;
+  --naranja-maestros: #ff9900;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+.barra-principal {
+  background-color: var(--azul-maestros);
+}
+
+.barra-admin {
+  background-color: #222;
+}
+
+.barra-principal .nav-link:hover,
+.barra-principal .nav-link.enlace-activo,
+.barra-admin .nav-link:hover,
+.barra-admin .nav-link.enlace-activo {
+  background-color: var(--naranja-maestros);
+  color: #fff;
+  border-radius: 4px;
+}
+
+.pie-pagina {
+  background-color: #333;
+}
+
+.titulo-producto {
+  color: var(--azul-maestros);
+}
+
+.banner-texto {
+  position: absolute;
+  left: 50%;
+  bottom: 24px;
+  transform: translateX(-50%);
+  width: min(700px, 92%);
+  background-color: rgba(0, 51, 102, 0.85);
+}
+
+@media (max-width: 576px) {
+  .banner-texto {
+    position: static;
+    transform: none;
+    width: 100%;
+    border-radius: 0 !important;
+  }
+}
